@@ -11,30 +11,9 @@ import {
 } from 'firebase/auth';
 import { getFirestore, doc, getDoc, setDoc, collection, writeBatch, getDocs ,query} from 'firebase/firestore';
 
-// const firebaseConfig = {
-//   apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
-//   authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
-//   projectId: 'crwn-clothing-db-98d4d',
-//   storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
-//   messagingSenderId: '626766232035',
-//   appId: '1:626766232035:web:506621582dab103a4d08d6',
-// };
-// const firebaseConfig = {
-//   apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
-//   authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
-//   projectId: 'crwn-clothing-db-98d4d',
-//   storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
-//   messagingSenderId: '626766232035',
-//   appId: '1:626766232035:web:506621582dab103a4d08d6',
-// };
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDuBTEqJZLxApxIOYSCzLac4N7mOXVlXvQ",
-  authDomain: "kalimart-sarees.firebaseapp.com",
-  projectId: "kalimart-sarees",
-  storageBucket: "kalimart-sarees.appspot.com",
-  messagingSenderId: "472889435999",
-  appId: "1:472889435999:web:925dfa40bbf715a97278ea",
-  measurementId: "G-2J1CTG3Z32"
+ // firebase config
 };
 initializeApp(firebaseConfig);
 
