@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { CartContext } from '../../contexts/cart.context';
 
 import Button from '../button/button.component';
+import ButtonGrp from '../button-grp/button-grp.component';
 
 import './product-card.styles.scss';
 
@@ -22,6 +23,9 @@ const ProductCard = ({ product }) => {
       <Button buttonType='inverted' onClick={addProductToCart}>
         Add to card
       </Button>
+      {/* <br></br> */}
+      {/* <ButtonGrp></ButtonGrp> */}
+      
     </div>
   );
 };
